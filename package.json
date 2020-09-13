@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "start": "next start",
-    "build": "next build"
+    "dev": "nodemon src/server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node src/server.js"
   },
   "repository": {
     "type": "git",
