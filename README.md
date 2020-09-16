@@ -40,10 +40,10 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/guilhermecapitao/proffy-discovery
+git clone https://github.com/eugeniocarvalho/nlw-proffy
 
 # Entrar no diretório
-cd proffy-discovery
+cd nlw-proffy
 
 # Baixar as dependências
 npm i
