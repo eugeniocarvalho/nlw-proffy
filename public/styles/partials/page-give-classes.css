@@ -43,6 +43,7 @@
     font: 700 1.6rem Archivo;
     cursor: pointer;
     transition: 0.2s;
+    margin-right: none;
 }
 
 #page-give-classes fieldset legend button:hover {
@@ -134,6 +135,26 @@
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
         column-gap: 1.6rem;
+    }
+
+    #schedule-items #remove {
+        width: 8rem;
+        height: 3.6rem;
+
+        background: var(--color-secondary);
+        color: var(--color-button-text);
+        
+        border: 0;
+        border-radius: .8rem;
+        cursor: pointer;
+        font: 700 1.6rem Archivo;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        
+        transition: 0.2s;
     }
 
     #page-give-classes #schedule-items .select-block+.input-block,

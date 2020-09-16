@@ -17,6 +17,7 @@
         rel="stylesheet">
 
     <script src="/scripts/addField.js" defer></script>
+    
 </head>
 
 <body id="page-give-classes">
@@ -91,9 +92,9 @@
                     <legend>
                         Horários disponíveis
                         <button type="button" id="add-time">+ Novo Horário</button>
+                        <button type="button" id="remove">Apagar</button>
                     </legend>
-
-                    <div class="schedule-item">
+                    <div id = "schedule-item" class="schedule-item">
 
                         <div class="select-block">
                             <label for="weekday">Dia da semana</label>
@@ -128,7 +129,7 @@
             </footer>
         </main>
     </div>
-
+    <script src="/scripts/removeElement.js" defer></script>
 </body>
 
 </html>
