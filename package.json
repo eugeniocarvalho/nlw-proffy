@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eugeniofreire/nlw-proffy.git"
+    "url": "git+https://github.com/eugeniocarvalho/nlw-proffy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eugeniofreire/nlw-proffy/issues"
+    "url": "https://github.com/eugeniocarvalho/nlw-proffy/issues"
   },
-  "homepage": "https://github.com/eugeniofreire/nlw-proffy#readme",
+  "homepage": "https://github.com/eugeniocarvalho/nlw-proffy#readme",
   "dependencies": {
     "express": "^4.17.1",
     "next": "^9.5.3",
